@@ -9,6 +9,9 @@ body {
   font-size: 16px;
   background-color: black;
   cursor: url('../img/cursor.png'), auto;
+}
+
+.mobile-scroll {
   overflow: hidden;
 }
 
