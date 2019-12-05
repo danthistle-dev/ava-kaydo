@@ -102,10 +102,6 @@ body {
   transition: all .2s;
 }
 
-.bio-btn span::after {
-  display: block;
-}
-
 .bio-btn {
   font-family: 'Cormorant Unicase', serif;
   font-size: 32px;
@@ -121,7 +117,7 @@ body {
 
 #slide-up {
   height: 100vh;
-  transition: all 1.5s ease-out;
+  transition: all .7s ease-out;
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.8), 
     rgba(17, 17, 17, 0.8)
@@ -129,6 +125,10 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
+}
+
+.btn-container {
+  height: auto;
 }
 
 .bio-hide-btn {
@@ -139,8 +139,7 @@ body {
   display: block;
   position: absolute;
   top: 5%;
-  left: 50%;
-  transform: translateX(-50%, -5%);
+  left: 49%;
   transition: all .2s;
 }
 
