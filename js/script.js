@@ -7,6 +7,7 @@ const apple = document.querySelector('#apple');
 const spotify = document.querySelector('#spotify');
 const instagram = document.querySelector('#instagram');
 const facebook = document.querySelector('#facebook');
+const soundcloud = document.querySelector('#soundcloud');
 
 const showBio = document.querySelector('.bio-btn');
 const hideBio = document.querySelector('.bio-hide-btn');
@@ -36,6 +37,8 @@ onHover('mouseleave', instagram, 'white');
 onHover('mouseenter', facebook, '#3b5998');
 onHover('mouseleave', facebook, 'white');
 
+onHover('mouseenter', soundcloud, '#ff8800');
+onHover('mouseleave', soundcloud, 'white');
 
 showBio.addEventListener('click', function(){
   bio.style.transform = 'translateY(-100vh)'
